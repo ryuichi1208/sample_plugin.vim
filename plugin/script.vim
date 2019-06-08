@@ -2,4 +2,4 @@ function! HelloFunc()
   echo "Hello World"
 endfunction
 
-command! Echo call HelloFunc
+command! Echo call HelloFunc()
